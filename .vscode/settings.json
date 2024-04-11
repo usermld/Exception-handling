@@ -1,0 +1,5 @@
+{
+    "java.import.generatesMetadataFilesAtProjectRoot": true,
+    "java.import.maven.offline.enabled": true,
+    "java.import.maven.disableTestClasspathFlag": true
+}

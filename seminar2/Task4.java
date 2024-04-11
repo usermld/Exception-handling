@@ -1,0 +1,40 @@
+/* 
+package seminar2;
+
+
+public class Task4 {
+    public static void main(String[] args) {
+        InputStream inputStream;
+        String[] strings = { "asdf", "asdf" };
+        try {
+            String strings1 = strings[2];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Выход за пределы массива");
+        }
+        try {
+            test();
+        } catch (Throwable error) {
+            error.printStackTrace();
+        }
+        try {
+            int a = 1 / 0;
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
+        try {
+            inputStream = new FileInputStream("asdfsdasa");
+        } catch (IOException e) {
+            System.out.println("фвфывфывфыв");
+        }
+        System.out.println("Я жив!");
+    }
+
+    public static void test() throws IOException {
+        File file = new File("1");
+        file.createNewFile();
+        FileReader reader = new FileReader(file);
+        reader.read();
+        test();
+    }
+}
+*/
